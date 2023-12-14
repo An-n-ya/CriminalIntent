@@ -1,11 +1,12 @@
 package host.ankh.criminalintent
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.switchMap
 import java.util.*
-
+private const val TAG = "CrimeDetailViewModel"
 class CrimeDetailViewModel : ViewModel() {
     private val crimeRepository = CrimeRepository.get()
     private val crimeIdLiveData = MutableLiveData<UUID>();
@@ -17,6 +18,7 @@ class CrimeDetailViewModel : ViewModel() {
     }
 
     fun saveCrime(crime: Crime) {
+        Log.d(TAG, "saveCrime id= ${crime.id}, title=${crime.title}")
         crimeRepository.updateCrime(crime)
     }
 }

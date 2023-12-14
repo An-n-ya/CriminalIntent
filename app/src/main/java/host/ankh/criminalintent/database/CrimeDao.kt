@@ -2,6 +2,7 @@ package host.ankh.criminalintent.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
+import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
 import host.ankh.criminalintent.Crime
@@ -18,6 +19,6 @@ interface CrimeDao {
         @Update
         fun updateCrime(crime: Crime)
 
-        @Update
+        @Insert
         fun addCrime(crime: Crime)
 }
