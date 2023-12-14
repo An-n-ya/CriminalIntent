@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crime监察队</string>
+    <string name="crime_title_hint">Crime简短描述</string>
+    <string name="crime_title_label">标题</string>
+    <string name="crime_details_label">明细</string>
+    <string name="crime_solved_label">是否解决</string>
+    <string name="new_crime">新建 Crime 记录</string>
+    <string name="crime_suspect_text">选择嫌疑人</string>
+    <string name="crime_report_text">发送 Crime 记录</string>
+    <string name="crime_report">Crime %1$s! 发生于 %2$s. %3$s, %4$s.
+    </string>
+    <string name="crime_report_solved">问题已解决</string>
+    <string name="crime_report_unsolved">问题未解决</string>
+    <string name="crime_report_no_suspect">没有找到嫌疑人</string>
+    <string name="crime_report_suspect">嫌疑人是 %s.</string>
+    <string name="crime_report_subject">Crime 处理报告</string>
+    <string name="send_report">发送方式</string>
+
+    <string name="crime_photo_button_description">拍照按钮</string>
+    <string name="crime_photo_no_photo_description">Crime照片(未拍照)</string>
+    <string name="crime_photo_photo_description">Crime照片</string>
+</resources>
